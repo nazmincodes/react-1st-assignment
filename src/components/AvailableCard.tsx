@@ -30,14 +30,11 @@ const AvailableCard = ({ cards, selectedIds, onAdd }: IAvailableCardProps) => {
         const badgeClass = badgeColors[card.badge] ?? 'bg-neutral-100 text-neutral-600';
 
         return (
-          <div
-            key={card.id}
-            className="relative flex flex-col gap-2 rounded-2xl border border-neutral-200 bg-white p-5"
-          >
-            <span
-              className={`absolute right-4 top-4 rounded-full px-2.5 py-0.5 text-[11px] font-medium ${badgeClass}`}
-            >
-              {card.badge}
+          <div key=
+          {card.id}
+           className="relative flex flex-col gap-2 rounded-2xl border border-neutral-200 bg-white p-5">
+            <span className={`absolute right-4 top-4 rounded-full px-2.5 py-0.5 text-[11px] font-medium ${badgeClass}`} >
+            {card.badge}
             </span>
 
             <img src={card.icon} alt={card.name} className="h-7 w-7" />

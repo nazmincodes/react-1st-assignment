@@ -16,7 +16,6 @@ const Stack = ({ stack, onRemove, onRemoveAll }: IStackProps) => {
         </span>
       </div>
 
-      {/* conditional rendering: empty vs list */}
       {stack.length === 0 ? (
         <p className="py-4 text-center text-[13px] text-neutral-400">
           No technologies selected yet.

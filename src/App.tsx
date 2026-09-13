@@ -38,6 +38,13 @@ const App = () => {
       <Banner />
 
       <section id="explore" className="max-w-6xl mx-auto px-6 py-10">
+        <h2 className="text-3xl font-extrabold text-neutral-900">
+          Explore the <span className="brand-gradient-text text-pink-400">Technologies</span>
+        </h2>
+        <p className="mt-1 mb-6 text-neutral-500">
+          Pick one technology per category to build your ideal stack.
+        </p>
+
         <div className="flex flex-col lg:flex-row gap-8 items-start">
           <Card selectedIds={stack.map((c) => c.id)} onAdd={handleAdd} />
           <Stack stack={stack} onRemove={handleRemove} onRemoveAll={handleRemoveAll} />
