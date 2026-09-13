@@ -79,3 +79,6 @@ Example:
   onAdd={handleAdd}
 />
 
+https://soft-souffle-662013.netlify.app/
+https://github.com/nazmincodes/react-1st-assignment
+
